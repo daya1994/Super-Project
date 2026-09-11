@@ -1,0 +1,21 @@
+# Maven
+target/
+
+# Java compiled files
+*.class
+
+# Logs
+*.log
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+
+# Environment / secrets
+.env
+
+# Private keys
+*.pem
+*.key
