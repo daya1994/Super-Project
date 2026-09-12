@@ -5,7 +5,7 @@ variable "aws_region" {
 
 variable "aws_type" {
   description = "AWS ec2 type"
-  default = "t3.micro"
+  default = "c7i-flex.large"
 }
 
 variable "aws_ami" {
