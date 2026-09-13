@@ -74,6 +74,7 @@ sudo chkconfig --levels 345 nexus on
 
 sudo service nexus start
 
+sudo service nexus status
 
 
 
