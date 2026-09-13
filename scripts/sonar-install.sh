@@ -38,7 +38,7 @@ cd bin
 cd linux-x86-64/
 ./sonar.sh start
 ##/opt/sonarqube-26.9.0.129388/bin/linux-x86-64/sonar.sh start
-
+## If permission denied use command ->  ls -l sonar.sh -> chmod +x sonar.sh
 ## 8.. check the status using 
 ./sonar.sh status
 
