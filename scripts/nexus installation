@@ -13,14 +13,17 @@ cd /opt
 3. Download the nexus from their official https://help.sonatype.com/en/download.html
 
 wget https://download.sonatype.com/nexus/3/nexus-3.65.0-02-unix.tar.gz
+#sudo wget https://download.sonatype.com/nexus/3/nexus-3.96.1-01-linux-x86_64.tar.gz
 
 4. Extract the tar file
 
 tar -xvf nexus-3.65.0-02-unix.tar.gz
+tar -xvzf nexus-3.96.0-09-linux-x86_64.tar.gz
 
 5. Chang ename of nexus directory 
 
 sudo mv nexus-3.65.0-02 nexus
+sudo mv nexus-3.96.0-09 nexus
 
 5. Add nexus user (Prefer to set password for safety)
 
